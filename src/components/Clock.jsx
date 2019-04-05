@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './clock.scss'
 /**
  * ---------- To mount a react class and insert into DOM
  * 
