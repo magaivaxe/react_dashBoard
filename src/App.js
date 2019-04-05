@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import Clock from './components/clock/Clock';
+import { BrowserRouter } from 'react-router-dom'
+
+import MainRouter from './pages/MainRouter'
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Clock />
-      </div>
+      <BrowserRouter>
+        <MainRouter/>
+      </BrowserRouter>
     );
   }
 }
